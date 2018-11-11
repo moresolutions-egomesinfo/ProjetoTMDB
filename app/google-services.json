@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "21498415681",
+    "firebase_url": "https://projetotmdb.firebaseio.com",
+    "project_id": "projetotmdb",
+    "storage_bucket": "projetotmdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21498415681:android:b5c263213cddf5eb",
+        "android_client_info": {
+          "package_name": "br.com.egomesinfo.projetotmdb_dispositivosmveis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "21498415681-s9ad1ti87fjcljn7t2qjmen2ilhcdv19.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC25GCQcLSuiGvqFmzL5ie0z3AmOIWMUAQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

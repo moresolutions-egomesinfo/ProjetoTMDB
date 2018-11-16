@@ -5,6 +5,8 @@ import android.os.Bundle;
 
 public class DetalheFilmeActivity extends AppCompatActivity {
 
+    //comentario para testar o push do git
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

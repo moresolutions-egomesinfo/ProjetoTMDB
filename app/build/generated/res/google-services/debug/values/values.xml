@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">21498415681-s9ad1ti87fjcljn7t2qjmen2ilhcdv19.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://projetotmdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">21498415681</string>
+    <string name="google_api_key" translatable="false">AIzaSyC25GCQcLSuiGvqFmzL5ie0z3AmOIWMUAQ</string>
+    <string name="google_app_id" translatable="false">1:21498415681:android:b5c263213cddf5eb</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC25GCQcLSuiGvqFmzL5ie0z3AmOIWMUAQ</string>
+    <string name="google_storage_bucket" translatable="false">projetotmdb.appspot.com</string>
+    <string name="project_id" translatable="false">projetotmdb</string>
+</resources>

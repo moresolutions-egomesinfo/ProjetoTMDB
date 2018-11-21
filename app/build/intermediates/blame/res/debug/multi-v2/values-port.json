@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/Augusto/AndroidStudioProjects/projeto bossini/ProjetoTMDB/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
+            "outputFile": "/home/felipe/Documentos/Projeto_Android/ProjetoTMDB/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "/Users/Augusto/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/56b83047599b35d0c3b8125361ca551a/res/values-port/values-port.xml",
+                    "source": "/home/felipe/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/aa5b16ce9b719ba02f6303bc2400c14c/res/values-port/values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

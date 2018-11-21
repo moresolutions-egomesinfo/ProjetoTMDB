@@ -961,7 +961,10 @@ id percent
 id pin
 id progress_circular
 id progress_horizontal
+id progress_movie_load
 id radio
+id recycler_view_generoFilmes
+id recycler_view_listaFilmes
 id right
 id right_icon
 id right_side
@@ -1012,6 +1015,7 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id text_input_password_toggle
+id text_movie_info
 id textinput_counter
 id textinput_error
 id time

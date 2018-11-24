@@ -12,30 +12,30 @@ import java.util.ArrayList;
 
 import br.com.egomesinfo.projetotmdb_dispositivosmveis.R;
 
-public class GenderListAdapter extends RecyclerView.Adapter<GenderListAdapter.GenderListViewHolder> {
+public class GenreListAdapter extends RecyclerView.Adapter<GenreListAdapter.GenreListViewHolder> {
     Context mContext;
-    ArrayList<String> mGenderList;
+    ArrayList<String> mGenreList;
 
-    public GenderListAdapter(Context context) {
+    public GenreListAdapter(Context context) {
         mContext = context;
-        mGenderList = new ArrayList<>();
+        mGenreList = new ArrayList<>();
     }
 
     @NonNull
-    public GenderListViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+    public GenreListViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         LayoutInflater inflater = LayoutInflater.from(parent.getContext());
         View inflatedView = inflater.inflate(R.layout.activity_detalhe_filme, parent, false);
-        return new GenderListViewHolder(inflatedView);
+        return new GenreListViewHolder(inflatedView);
     }
 
     @Override
-    public void onBindViewHolder(GenderListViewHolder holder, int position){
-            holder.mMovieInfoTextView.setText(mGenderList.get(position));
+    public void onBindViewHolder(GenreListViewHolder holder, int position){
+            holder.mMovieInfoTextView.setText(mGenreList.get(position));
     }
 
     @Override
     public int getItemCount(){
-        return (mGenderList != null) ? mGenderList.size() : 0;
+        return (mGenreList != null) ? mGenreList.size() : 0;
     }
 
     public void swapGenderList(ArrayList<String> mGenderList) {
@@ -45,13 +45,16 @@ public class GenderListAdapter extends RecyclerView.Adapter<GenderListAdapter.Ge
             }
         }
 
-    class GenderListViewHolder extends RecyclerView.ViewHolder {
+    class GenreListViewHolder extends RecyclerView.ViewHolder {
 
         TextView mMovieInfoTextView;
 
-        public GenderListViewHolder(View itemView) {
+        public GenreListViewHolder(View itemView) {
             super(itemView);
             mMovieInfoTextView = itemView.findViewById(R.id.text_movie_info);
         }
     }
 }
+
+
+

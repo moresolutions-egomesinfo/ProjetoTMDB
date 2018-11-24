@@ -9,7 +9,7 @@ import android.widget.ProgressBar;
 import java.util.ArrayList;
 
 import br.com.egomesinfo.projetotmdb_dispositivosmveis.R;
-import br.com.egomesinfo.projetotmdb_dispositivosmveis.activities.adapters.ListMoviesAdapter;
+import br.com.egomesinfo.projetotmdb_dispositivosmveis.activities.adapters.MovieListAdapter;
 
 
 public class ListaGeneroActivity extends AppCompatActivity {
@@ -31,13 +31,13 @@ public class ListaGeneroActivity extends AppCompatActivity {
                     LinearLayoutManager.VERTICAL,
                     false);
 
-            ListMoviesAdapter listMoviesAdapter = new ListMoviesAdapter(this);
+            MovieListAdapter movieListAdapter = new MovieListAdapter(this);
 
             mGenderListRecyclerView.setLayoutManager(linearLayoutManager);
-            mGenderListRecyclerView.setAdapter(listMoviesAdapter);
+            mGenderListRecyclerView.setAdapter(movieListAdapter);
 
             ArrayList<String> genderList = new ArrayList<>();
-            ler");
+
             genderList.add("War");
             genderList.add("Western");
             genderList.add("Action");
@@ -56,8 +56,8 @@ public class ListaGeneroActivity extends AppCompatActivity {
             genderList.add("Romance");
             genderList.add("Science Fiction");
             genderList.add("TV Movie");
-            genderList.add("Thril
+            genderList.add("Thriller");
 
-            listMoviesAdapter.swapMoviesList(genderList);
+            movieListAdapter.swapMoviesList(genderList);
         }
     }

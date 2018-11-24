@@ -9,11 +9,11 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import br.com.egomesinfo.projetotmdb_dispositivosmveis.R;
 
-public class ListMoviesAdapter extends RecyclerView.Adapter<ListMoviesAdapter.ListMovieViewHolder> {
+public class MovieListAdapter extends RecyclerView.Adapter<MovieListAdapter.ListMovieViewHolder> {
     Context mContext;
     ArrayList<String> mMoviesList;
 
-    public ListMoviesAdapter(Context context) {
+    public MovieListAdapter(Context context) {
         mContext = context;
         mMoviesList = new ArrayList<>();
     }

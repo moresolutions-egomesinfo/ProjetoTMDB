@@ -2,10 +2,10 @@
 <resources>
     <string name="api_key">1b2754df6de02a8b2f258d2130475831</string>
     <string name="web_service_url_list_genre">
-        https://api.themoviedb.org/3/genre/movie/list?api_key=1b2754df6de02a8b2f258d2130475831&language=en-US
+        https://api.themoviedb.org/3/genre/movie/list?api_key=1b2754df6de02a8b2f258d2130475831%26language=%s
     </string>
     <string name="web_service_url_list_film_genre">
-        https://api.themoviedb.org/3/discover/movie?api_key=1b2754df6de02a8b2f258d2130475831&language=%s&with_genres=%s
+        https://api.themoviedb.org/3/discover/movie?api_key=1b2754df6de02a8b2f258d2130475831%26language=%s%26with_genres=%s
     </string>
     <string name="web_service_url_poster_movie">https://image.tmdb.org/t/p/w500/%s</string>
 </resources>

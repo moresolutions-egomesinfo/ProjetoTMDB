@@ -1147,6 +1147,7 @@ string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string action_sign_in
 string action_sign_in_short
+string api_key
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
@@ -1192,6 +1193,9 @@ string prompt_password
 string search_menu_title
 string status_bar_notification_info_overflow
 string title_activity_login
+string web_service_url_list_film_genre
+string web_service_url_list_genre
+string web_service_url_poster_movie
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog

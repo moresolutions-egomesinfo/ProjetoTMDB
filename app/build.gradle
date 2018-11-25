@@ -35,6 +35,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-database:15.0.0'
     implementation 'com.google.firebase:firebase-auth:16.0.1'
     implementation 'com.android.support:recyclerview-v7:27.1.1'
+    implementation 'com.android.support:gridlayout-v7:27.1.1'
 }
 
 //NOTE: Create project on Firebase. Add google-services.json in the test app to this plugin to function

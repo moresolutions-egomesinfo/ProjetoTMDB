@@ -10,8 +10,12 @@
           <option name="url" value="http://github.com" />
           <option name="userName" value="felipeconceicao59@gmail.com" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="git@github.com:moresolutions-egomesinfo/ProjetoTMDB.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="/media/felipe/Armazenamento" />
+    <option name="cloneParentDir" value="/media/felipe/Armazenamento/ProjetoTMDB" />
   </component>
 </application>

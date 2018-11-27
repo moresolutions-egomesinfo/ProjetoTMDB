@@ -684,6 +684,7 @@ dimen design_tab_text_size
 dimen design_tab_text_size_2line
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
+dimen fab_margin
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
@@ -694,9 +695,11 @@ dimen hint_alpha_material_dark
 dimen hint_alpha_material_light
 dimen hint_pressed_alpha_material_dark
 dimen hint_pressed_alpha_material_light
+dimen horizontal_margin
 dimen item_touch_helper_max_drag_scroll_per_frame
 dimen item_touch_helper_swipe_escape_max_velocity
 dimen item_touch_helper_swipe_escape_velocity
+dimen item_width
 dimen notification_action_icon_size
 dimen notification_action_text_size
 dimen notification_big_circle_margin
@@ -712,6 +715,8 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+dimen sub_detail_min_height
+dimen text_margin
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -943,6 +948,7 @@ id icon_group
 id icon_only
 id ifRoom
 id image
+id imageView
 id info
 id invisible
 id italic
@@ -961,7 +967,7 @@ id media_actions
 id message
 id middle
 id mini
-id movieDetail_imageView
+id movie_detail
 id multiply
 id navigation_header_container
 id never
@@ -1033,6 +1039,10 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
+id textViewOriginalTitle
+id textViewOverViewMovie
+id textViewReleaseDateDayMonth
+id textViewReleaseDateYear
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1096,9 +1106,8 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_lista_filme
-layout activity_lista_genero
 layout activity_login
+layout activity_movie_list
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -1113,6 +1122,7 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout genre_list
 layout movie_detail
 layout notification_action
 layout notification_action_tombstone
@@ -1212,8 +1222,8 @@ string prompt_password
 string search_menu_title
 string status_bar_notification_info_overflow
 string title_activity_login
-string web_service_url_list_film_genre
-string web_service_url_list_genre
+string web_service_url_list_genre_filme
+string web_service_url_list_language
 string web_service_url_poster_movie
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
@@ -1472,6 +1482,9 @@ style TextAppearance_Design_Tab
 style TextAppearance_Widget_AppCompat_ExpandedMenu_Item
 style TextAppearance_Widget_AppCompat_Toolbar_Subtitle
 style TextAppearance_Widget_AppCompat_Toolbar_Title
+style TextBig
+style TextNormal
+style TextSmall
 style Theme_AppCompat
 style Theme_AppCompat_CompactMenu
 style Theme_AppCompat_DayNight

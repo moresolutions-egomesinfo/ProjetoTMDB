@@ -12,7 +12,7 @@ import br.com.egomesinfo.projetotmdb_dispositivosmveis.R;
 import br.com.egomesinfo.projetotmdb_dispositivosmveis.activities.adapters.MovieListAdapter;
 
 
-public class ListaGeneroActivity extends AppCompatActivity {
+public class GenderListActivity extends AppCompatActivity {
 
         RecyclerView mGenderListRecyclerView;
         ProgressBar mGenderListProgressBar;
@@ -20,7 +20,7 @@ public class ListaGeneroActivity extends AppCompatActivity {
         @Override
         protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
-            setContentView(R.layout.activity_lista_genero);
+            setContentView(R.layout.gender_list);
 
 
             mGenderListRecyclerView = findViewById(R.id.recycler_view_generoFilmes);

@@ -34,7 +34,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="br.com.egomesinfo.projetotmdb_dispositivosmveis.activities.activitys.ListaGeneroActivity"
+            android:name="br.com.egomesinfo.projetotmdb_dispositivosmveis.activities.activitys.GenreListActivity"
             android:label="@string/title_activity_login"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -43,7 +43,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="br.com.egomesinfo.projetotmdb_dispositivosmveis.activities.activitys.ListaFilmeActivity" />
+        <activity android:name="br.com.egomesinfo.projetotmdb_dispositivosmveis.activities.activitys.MovieListActivity" />
         <activity android:name="br.com.egomesinfo.projetotmdb_dispositivosmveis.activities.activitys.LoginActivity" />
         <activity android:name="br.com.egomesinfo.projetotmdb_dispositivosmveis.activities.activitys.DetalheFilmeActivity" />
         <activity

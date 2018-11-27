@@ -140,14 +140,14 @@ MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Us
 		ADDED from C:\Users\r5564476\Desktop\Mi\TMDB\app\src\main\AndroidManifest.xml:14:9-35
 	android:theme
 		ADDED from C:\Users\r5564476\Desktop\Mi\TMDB\app\src\main\AndroidManifest.xml:19:9-40
-activity#br.com.egomesinfo.projetotmdb_dispositivosmveis.activities.activitys.ListaGeneroActivity
+activity#br.com.egomesinfo.projetotmdb_dispositivosmveis.activities.activitys.GenreListActivity
 ADDED from C:\Users\r5564476\Desktop\Mi\TMDB\app\src\main\AndroidManifest.xml:21:9-30:20
 	android:screenOrientation
 		ADDED from C:\Users\r5564476\Desktop\Mi\TMDB\app\src\main\AndroidManifest.xml:22:13-49
 	android:label
 		ADDED from C:\Users\r5564476\Desktop\Mi\TMDB\app\src\main\AndroidManifest.xml:24:13-57
 	android:name
-		ADDED from C:\Users\r5564476\Desktop\Mi\TMDB\app\src\main\AndroidManifest.xml:23:13-69
+		ADDED from C:\Users\r5564476\Desktop\Mi\TMDB\app\src\main\AndroidManifest.xml:23:13-67
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\r5564476\Desktop\Mi\TMDB\app\src\main\AndroidManifest.xml:25:13-29:29
 action#android.intent.action.MAIN
@@ -158,10 +158,10 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\r5564476\Desktop\Mi\TMDB\app\src\main\AndroidManifest.xml:28:17-77
 	android:name
 		ADDED from C:\Users\r5564476\Desktop\Mi\TMDB\app\src\main\AndroidManifest.xml:28:27-74
-activity#br.com.egomesinfo.projetotmdb_dispositivosmveis.activities.activitys.ListaFilmeActivity
-ADDED from C:\Users\r5564476\Desktop\Mi\TMDB\app\src\main\AndroidManifest.xml:31:9-77
+activity#br.com.egomesinfo.projetotmdb_dispositivosmveis.activities.activitys.MovieListActivity
+ADDED from C:\Users\r5564476\Desktop\Mi\TMDB\app\src\main\AndroidManifest.xml:31:9-76
 	android:name
-		ADDED from C:\Users\r5564476\Desktop\Mi\TMDB\app\src\main\AndroidManifest.xml:31:19-74
+		ADDED from C:\Users\r5564476\Desktop\Mi\TMDB\app\src\main\AndroidManifest.xml:31:19-73
 activity#br.com.egomesinfo.projetotmdb_dispositivosmveis.activities.activitys.LoginActivity
 ADDED from C:\Users\r5564476\Desktop\Mi\TMDB\app\src\main\AndroidManifest.xml:32:9-72
 	android:name

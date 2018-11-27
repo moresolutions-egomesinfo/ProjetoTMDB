@@ -24,7 +24,7 @@ public class GenreListAdapter extends RecyclerView.Adapter<GenreListAdapter.Genr
     @NonNull
     public GenreListViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         LayoutInflater inflater = LayoutInflater.from(parent.getContext());
-        View inflatedView = inflater.inflate(R.layout.activity_detalhe_filme, parent, false);
+        View inflatedView = inflater.inflate(R.layout.movie_detail, parent, false);
         return new GenreListViewHolder(inflatedView);
     }
 
@@ -51,7 +51,7 @@ public class GenreListAdapter extends RecyclerView.Adapter<GenreListAdapter.Genr
 
         public GenreListViewHolder(View itemView) {
             super(itemView);
-            mMovieInfoTextView = itemView.findViewById(R.id.text_movie_info);
+            mMovieInfoTextView = itemView.findViewById(R.id.textViewOverViewMovie);
         }
     }
 }

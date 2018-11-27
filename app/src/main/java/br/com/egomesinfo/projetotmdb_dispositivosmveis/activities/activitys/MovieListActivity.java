@@ -3,7 +3,7 @@ package br.com.egomesinfo.projetotmdb_dispositivosmveis.activities.activitys;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class ListaFilmeActivity extends AppCompatActivity {
+public class MovieListActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

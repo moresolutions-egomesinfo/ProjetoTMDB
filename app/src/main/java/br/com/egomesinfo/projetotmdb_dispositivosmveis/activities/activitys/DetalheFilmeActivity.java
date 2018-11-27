@@ -10,6 +10,6 @@ public class DetalheFilmeActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detalhe_filme);
+        setContentView(R.layout.movie_detail);
     }
 }

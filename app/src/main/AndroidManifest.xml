@@ -27,11 +27,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.activitys.GenreListActivity"
-                  android:label="@string/action_genre_in"
-                  android:parentActivityName=".activities.activitys.LoginActivity"/>
-        <activity android:name=".activities.activitys.MovieListActivity" />
-        <activity android:name=".activities.activitys.DetalheFilmeActivity"></activity>
+        <activity android:name=".activities.activitys.MainActivity"
+            android:label="@string/action_genre_in"
+            android:parentActivityName=".activities.activitys.LoginActivity"/>
+        <activity android:name=".activities.activitys.MovieDetailActivity"></activity>
 
 
 

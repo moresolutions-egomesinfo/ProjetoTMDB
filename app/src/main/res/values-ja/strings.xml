@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TMDB  - モバイル機器プロジェクト</string>
+    <string name="title_activity_login">サインイン</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">関連カテゴリ</string>
+    <string name="prompt_password">パスワード（オプション）</string>
+    <string name="action_sign_in">ログインまたは登録</string>
+    <string name="action_genre_in">ジャンル</string>
+    <string name="action_sign_in_short">入力</string>
+    <string name="error_invalid_email">このメールアドレスは無効です</string>
+    <string name="error_invalid_password">Essa senha é muito curta</string>
+    <string name="error_incorrect_password">間違ったパスワード</string>
+    <string name="error_field_required">このフィールドは必須です</string>
+    <string name="permission_rationale">"電子メールを提供するには、連絡先権限が必要です"</string>
+</resources>

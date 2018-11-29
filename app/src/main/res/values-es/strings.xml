@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Proyecto TMDB - Dispositivos Móviles</string>
+    <string name="title_activity_login">Entrar</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Contraseña (opcional)</string>
+    <string name="action_sign_in">Entrar o Registrarse</string>
+    <string name="action_genre_in">Género</string>
+    <string name="action_sign_in_short">Entra</string>
+    <string name="error_invalid_email">Esta dirección de correo electrónico es invalida</string>
+    <string name="error_invalid_password">Esta contraseña es muy corta</string>
+    <string name="error_incorrect_password">Contraseña incorrecta</string>
+    <string name="error_field_required">Este campo es obligatorio</string>
+    <string name="permission_rationale">"Llos permisos de contacto son necesarios para proporcionar correo electrónico."</string>
+</resources>

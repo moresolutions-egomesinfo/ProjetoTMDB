@@ -6,9 +6,9 @@
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Senha (opcional)</string>
-    <string name="action_sign_in">Entrar ou Cadastar</string>
+    <string name="action_sign_in">Entrar ou Cadastrar</string>
     <string name="action_genre_in">Gênero</string>
-    <string name="action_sign_in_short">Entras</string>
+    <string name="action_sign_in_short">Entra</string>
     <string name="error_invalid_email">Esse endereço de email é invalido</string>
     <string name="error_invalid_password">Essa senha é muito curta</string>
     <string name="error_incorrect_password">Senha incorreta</string>
